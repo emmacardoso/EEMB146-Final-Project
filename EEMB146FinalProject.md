@@ -96,13 +96,18 @@ left skew, as this skew is weak and the data comes from a large random
 sample including 118 data points, adhering to the Central Limit Theorem,
 we can proceed under the assumption that the data is normal.
 
-![Figure 1. Histogram depicting square root transformed root:shoot
-ratio. As the distribution of the histogram resembles a bell-shaped
-curve, and because the sample size allows for the adherenece of the
-Central Limit Theorem, the slight left skew can be deemed insignificant
-and we can conclude that the data is
-normal.](EEMB146FinalProject_files/figure-gfm/unnamed-chunk-1-1.png)
-\#### Boxplots
+<figure>
+<img src="EEMB146FinalProject_files/figure-gfm/unnamed-chunk-1-1.png"
+alt="Figure 1. Histogram depicting square root transformed root:shoot ratio. As the distribution of the histogram resembles a bell-shaped curve, and because the sample size allows for the adherenece of the Central Limit Theorem, the slight left skew can be deemed insignificant and we can conclude that the data is normal." />
+<figcaption aria-hidden="true">Figure 1. Histogram depicting square root
+transformed root:shoot ratio. As the distribution of the histogram
+resembles a bell-shaped curve, and because the sample size allows for
+the adherenece of the Central Limit Theorem, the slight left skew can be
+deemed insignificant and we can conclude that the data is
+normal.</figcaption>
+</figure>
+
+#### Boxplots
 
 To further visualize the data in a meaningful way, a boxplot was created
 to compare the differences in square root root:shoot ratio between
@@ -137,12 +142,17 @@ centralized as the percent of AMF colonization increases. When adding a
 trendline to the scatterplot, the line has a negative slope, meaning
 that a negative correlation between the two variables may exist.
 
-![Figure 3. Scatterplot depicting the relationship between square root
-root:shoot ratio and square root AMF percent colonization. As the
-trendline for this plot has a negative slope, a negative correleation
-between the two variables may
-exist.](EEMB146FinalProject_files/figure-gfm/unnamed-chunk-3-1.png) \##
-Statistical Methods
+<figure>
+<img src="EEMB146FinalProject_files/figure-gfm/unnamed-chunk-3-1.png"
+alt="Figure 3. Scatterplot depicting the relationship between square root root:shoot ratio and square root AMF percent colonization. As the trendline for this plot has a negative slope, a negative correleation between the two variables may exist." />
+<figcaption aria-hidden="true">Figure 3. Scatterplot depicting the
+relationship between square root root:shoot ratio and square root AMF
+percent colonization. As the trendline for this plot has a negative
+slope, a negative correleation between the two variables may
+exist.</figcaption>
+</figure>
+
+## Statistical Methods
 
 #### Two Sample T-Test
 
@@ -544,7 +554,8 @@ abline(fit,col='darkcyan')
 ```
 
 ![](EEMB146FinalProject_files/figure-gfm/unnamed-chunk-10-3.png)<!-- -->
-\#### Statistical Methods
+
+#### Statistical Methods
 
 ``` r
 #checking normality for two-sample t-test
