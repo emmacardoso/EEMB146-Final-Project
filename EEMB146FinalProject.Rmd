@@ -219,11 +219,11 @@ plot(fungi.lm)
 
 ```
 
-```{r warnings = FALSE, echo=FALSE, output=FALSE, include=FALSE}
+```{r warnings = FALSE, message = FALSE, echo=FALSE, output=FALSE, include=FALSE}
 summary(fungi.lm)
 ```
 
-```{r warnings = FALSE, message = FALSE, echo=FALSE, output=FALSE, fig.show="hold", fig.cap="Figure 5. ggPlot visualizing the results of the linear regression. The negative trendline suggests that there is a significant negative relationship between square root AMF colonization percent and square root root:shoot ratio."}
+```{r warnings = FALSE, message = FALSE, echo=FALSE, output=FALSE, include = FALSE, fig.show="hold", fig.cap="Figure 5. ggPlot visualizing the results of the linear regression. The negative trendline suggests that there is a significant negative relationship between square root AMF colonization percent and square root root:shoot ratio."}
 ggplot(fungi, aes(x=sqrt_AMF_colonisation_percent, y=sqrt_Root_shoot_ratio,))+
 geom_point()+
 geom_smooth(method="lm")+
