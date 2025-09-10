@@ -1,20 +1,19 @@
 ---
 title:  Oh Shoot! Should I Grow My Roots?<br>
   </span><br>
-  EEMB 146 Final Project
   </span>
   <span style="font-size:18px; font-weight:normal;">
   How Changes in Environmental Conditions Affect Plant Root:Shoot Ratios
   <span style="font-size:16px; font-weight:normal; color:gray;">
 author: "Emma Cardoso"
-date: "March 2023"
+date: "March 2023 - EEMB 146 Final Project"
 output:
-  github_document: default
   html_document:
     theme: default
     toc: true
     toc_float: true
     code_folding: show
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
