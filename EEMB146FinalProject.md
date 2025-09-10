@@ -1,10 +1,10 @@
-Oh Shoot! Should I Grow My Roots?<br> </span><br> EEMB 146 Final Project
-</span> <span style="font-size:18px; font-weight:normal;"> How Changes
-in Environmental Conditions Affect Plant Root:Shoot Ratios
+Oh Shoot! Should I Grow My Roots?<br> </span><br> </span>
+<span style="font-size:18px; font-weight:normal;"> How Changes in
+Environmental Conditions Affect Plant Root:Shoot Ratios
 <span style="font-size:16px; font-weight:normal; color:gray;">
 ================
 Emma Cardoso
-March 2023
+March 2023 - EEMB 146 Final Project
 
 ## Abstract
 
