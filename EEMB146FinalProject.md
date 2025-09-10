@@ -1,8 +1,7 @@
-Oh Shoot! Should I Grow My Roots?<br>
-<span style="font-size:18px; font-weight:normal;"> How Changes in
-Environmental Conditions Affect Plant Root:Shoot Ratios </span><br>
-<span style="font-size:16px; font-weight:normal; color:gray;"> EEMB 146
-Final Project </span>
+Oh Shoot! Should I Grow My Roots?<br> </span><br> EEMB 146 Final Project
+</span> <span style="font-size:18px; font-weight:normal;"> How Changes
+in Environmental Conditions Affect Plant Root:Shoot Ratios
+<span style="font-size:16px; font-weight:normal; color:gray;">
 ================
 Emma Cardoso
 March 2023
@@ -327,8 +326,6 @@ variance. As the majority of data points fall within or close to the
 trendline in the Normal Q-Q plot, it can be assumed that the residuals
 are normally distributed.</figcaption>
 </figure>
-
-    ## `geom_smooth()` using formula = 'y ~ x'
 
 <figure>
 <img src="EEMB146FinalProject_files/figure-gfm/unnamed-chunk-8-1.png"
