@@ -1,9 +1,20 @@
 ---
-title: "Oh Shoot! Should I Grow My Roots?"
-author: "EEMB 146 Final Project"
-date: "Emma Cardoso"
-output: github_document
-subtitle: "How Changes in Environmental Conditions Affect Plant Root:Shoot Ratios"
+title:  Oh Shoot! Should I Grow My Roots?<br>
+  </span><br>
+  EEMB 146 Final Project
+  </span>
+  <span style="font-size:18px; font-weight:normal;">
+  How Changes in Environmental Conditions Affect Plant Root:Shoot Ratios
+  <span style="font-size:16px; font-weight:normal; color:gray;">
+author: "Emma Cardoso"
+date: "March 2023"
+output:
+  html_document:
+    theme: default
+    toc: true
+    toc_float: true
+    code_folding: show
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -183,7 +194,7 @@ Low_temp <- subset(fungi, Temperature_type=="Low")
 t.test(High_temp$sqrt_Root_shoot_ratio, Low_temp$sqrt_Root_shoot_ratio, var.equal=TRUE)
 
 mean(High_temp$sqrt_Root_shoot_ratio) #high temp mean of .5445587
-mean(Low_temp$sqrt_Root_shoot_ratio) #low temo mean .6346078
+mean(Low_temp$sqrt_Root_shoot_ratio) #low temp mean .6346078
 #low is higher root:shoot ratio
 ```
 
@@ -212,7 +223,7 @@ plot(fungi.lm)
 summary(fungi.lm)
 ```
 
-```{r warnings = FALSE, echo=FALSE, output=FALSE, fig.show="hold", fig.cap="Figure 5. ggPlot visualizing the results of the linear regression. The negative trendline suggests that there is a significant negative relationship between square root AMF colonization percent and square root root:shoot ratio."}
+```{r warnings = FALSE, message = FALSE, echo=FALSE, output=FALSE, fig.show="hold", fig.cap="Figure 5. ggPlot visualizing the results of the linear regression. The negative trendline suggests that there is a significant negative relationship between square root AMF colonization percent and square root root:shoot ratio."}
 ggplot(fungi, aes(x=sqrt_AMF_colonisation_percent, y=sqrt_Root_shoot_ratio,))+
 geom_point()+
 geom_smooth(method="lm")+

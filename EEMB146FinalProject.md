@@ -1,7 +1,11 @@
-Oh Shoot! Should I Grow My Roots?
+Oh Shoot! Should I Grow My Roots?<br>
+<span style="font-size:18px; font-weight:normal;"> How Changes in
+Environmental Conditions Affect Plant Root:Shoot Ratios </span><br>
+<span style="font-size:16px; font-weight:normal; color:gray;"> EEMB 146
+Final Project </span>
 ================
-EEMB 146 Final Project
 Emma Cardoso
+March 2023
 
 ## Abstract
 
@@ -678,12 +682,11 @@ labs(title="ggPlot of Linear Regression", x="Square Root AMF Colonization Percen
 citation("car")
 ```
 
-    ## 
     ## To cite the car package in publications use:
     ## 
     ##   Fox J, Weisberg S (2019). _An R Companion to Applied Regression_,
     ##   Third edition. Sage, Thousand Oaks CA.
-    ##   <https://socialsciences.mcmaster.ca/jfox/Books/Companion/>.
+    ##   <https://www.john-fox.ca/Companion/>.
     ## 
     ## A BibTeX entry for LaTeX users is
     ## 
@@ -694,39 +697,41 @@ citation("car")
     ##     year = {2019},
     ##     publisher = {Sage},
     ##     address = {Thousand Oaks {CA}},
-    ##     url = {https://socialsciences.mcmaster.ca/jfox/Books/Companion/},
+    ##     url = {https://www.john-fox.ca/Companion/},
     ##   }
 
 ``` r
 citation("readr")
 ```
 
-    ## 
     ## To cite package 'readr' in publications use:
     ## 
-    ##   Wickham H, Hester J, Bryan J (2023). _readr: Read Rectangular Text
-    ##   Data_. R package version 2.1.4,
-    ##   <https://CRAN.R-project.org/package=readr>.
+    ##   Wickham H, Hester J, Bryan J (2024). _readr: Read Rectangular Text
+    ##   Data_. doi:10.32614/CRAN.package.readr
+    ##   <https://doi.org/10.32614/CRAN.package.readr>, R package version
+    ##   2.1.5, <https://CRAN.R-project.org/package=readr>.
     ## 
     ## A BibTeX entry for LaTeX users is
     ## 
     ##   @Manual{,
     ##     title = {readr: Read Rectangular Text Data},
     ##     author = {Hadley Wickham and Jim Hester and Jennifer Bryan},
-    ##     year = {2023},
-    ##     note = {R package version 2.1.4},
+    ##     year = {2024},
+    ##     note = {R package version 2.1.5},
     ##     url = {https://CRAN.R-project.org/package=readr},
+    ##     doi = {10.32614/CRAN.package.readr},
     ##   }
 
 ``` r
 citation("here")
 ```
 
-    ## 
     ## To cite package 'here' in publications use:
     ## 
-    ##   Müller K (2020). _here: A Simpler Way to Find Your Files_. R package
-    ##   version 1.0.1, <https://CRAN.R-project.org/package=here>.
+    ##   Müller K (2020). _here: A Simpler Way to Find Your Files_.
+    ##   doi:10.32614/CRAN.package.here
+    ##   <https://doi.org/10.32614/CRAN.package.here>, R package version
+    ##   1.0.1, <https://CRAN.R-project.org/package=here>.
     ## 
     ## A BibTeX entry for LaTeX users is
     ## 
@@ -736,13 +741,13 @@ citation("here")
     ##     year = {2020},
     ##     note = {R package version 1.0.1},
     ##     url = {https://CRAN.R-project.org/package=here},
+    ##     doi = {10.32614/CRAN.package.here},
     ##   }
 
 ``` r
 citation("ggplot2")
 ```
 
-    ## 
     ## To cite ggplot2 in publications, please use
     ## 
     ##   H. Wickham. ggplot2: Elegant Graphics for Data Analysis.
@@ -763,7 +768,6 @@ citation("ggplot2")
 citation("tidyverse")
 ```
 
-    ## 
     ## To cite package 'tidyverse' in publications use:
     ## 
     ##   Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R,
